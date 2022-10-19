@@ -3,6 +3,37 @@
 <head>
 	<title></title>
 	<link rel="stylesheet"href="navigation.css"/>
+	<style type="text/css">
+		body{
+	background-image:url(https://image.shutterstock.com/image-vector/young-people-reading-books-park-260nw-1652312890.jpg);
+	background-repeat: no-repeat;
+	background-size: 60%;
+}
+.login{
+			background-color: deeppink;
+			border-style: solid;
+			width:20%;
+			border-color: blue;
+			padding:3%;
+			border-radius: 6%;
+			margin-left: 70%;
+			text-align: center;	
+		}
+	.btn-login button{
+			padding:2%;
+			background-color: green;
+			color: white;
+
+			}
+			.regi{
+				color: darkgreen;
+			}
+			.login input{
+			padding: 2%;
+			font-style: italic;
+
+	</style>
+
 </head>
 <body>
 	<nav class="navbar">
@@ -11,12 +42,15 @@
 		<a href="prabhasblog.html">prabhasblog</a>
 		<a href="photos.html">photos</a>
 	</nav>
-	<p align="center"> LOGIN PAGE</p>
+	<div class="login">
+	<p class="regi"align="center"> LOGIN PAGE</p>
 	<form target="_blank" action="prabhasblog.html">
 		<p><input placeholder="Enter email address"type="text"required/></p>
 		<p><input placeholder="Enter mobile number"type="number"required/></p>
-		<button>LOGIN</button>
+		<p class="btn-login">
+		<button>LOGIN</button></p>
 	</form>
+</div>
 
 </body>
 </html>
